@@ -104,6 +104,11 @@ header .cover-image {
   margin-top: var(--mt);
 }
 
+.romana-big {
+  width: 100%;
+  margin-top: var(--mt);
+}
+
 .arabella-big img {
   width: 100%;
 }
