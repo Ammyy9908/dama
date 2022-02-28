@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 :root {
-  --mb: 8px;
-  --mt: 8px;
+  --mb: 32px;
+  --mt: 32px;
+  --dmt: 32px;
 }
 * {
   box-sizing: border-box;
@@ -50,7 +51,7 @@ header .cover-image {
   margin: 0 auto;
 }
 .first-desc {
-  margin-top: 115px;
+  margin-top: var(--dmt);
 }
 
 .container {
@@ -106,7 +107,7 @@ header .cover-image {
 
 .romana-big {
   width: 100%;
-  margin-top: var(--mt);
+  margin-top: 115px;
 }
 
 .arabella-big img {
@@ -139,7 +140,7 @@ header .cover-image {
   width: 100%;
   height: max-content;
   background-color: #eee;
-  min-height: 450px;
+  min-height: max-content;
 }
 
 .image-box img {
