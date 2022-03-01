@@ -4,6 +4,7 @@ const images = document.querySelectorAll("img");
 
 Array.from(images).forEach((img) => {
   img.setAttribute("loading", "lazy");
+  img.setAttribute("decoding", "async");
 });
 
 //remove gray background from boxes once they are in viewport
